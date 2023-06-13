@@ -5,12 +5,12 @@
 }
 
 :root {
-    --background-color-main: #1F2937;
-    --background-color-secondary: #3882F6;
+    --color-main: #1F2937;
+    --color-secondary: #3882F6;
+    --color-tertiary: #E5E7EB;
     --hover: yellow;
     --text-main: #F9FAF8;
     --text-secondary: #E5E7EB;
-    --text-information: #1F2937;
 }
 
 html {
@@ -34,7 +34,7 @@ body {
 /* -----------------Header ------------------ */
 
 header {
-    background-color: var(--background-color-main);
+    background-color: var(--color-main);
 }
 
 .nav-bar.flex-container {
@@ -105,7 +105,7 @@ header {
 }
 
 .hero button {
-    background-color: var(--background-color-secondary);
+    background-color: var(--color-secondary);
     padding: 5px 30px;
     color: var(--text-main);
     border: none;
@@ -123,7 +123,7 @@ header {
     font-size: 3rem;
     text-align: center;
     font-weight: 800;
-    color: var(--text-information);
+    color: var(--color-main);
 }
 
 .information-gallery.flex-container {
@@ -134,11 +134,37 @@ header {
 .information-gallery-item img {
     max-width: 200px;
     height: 200px;
-    border: 5px solid var(--background-color-secondary);
+    border: 5px solid var(--color-secondary);
     border-radius: 10px;
 }
 
 .information-gallery-item figcaption {
     max-width: 200px;
     text-align: center;
+}
+
+/*-------------------------- Quote -----------------------*/
+
+.quote {
+    background-color: var(--color-tertiary);
+    padding: 100px 0;
+}
+
+.quote .container {
+    max-width: 950px;
+}
+
+.quote p:first-of-type {
+    font-size: 2.25rem;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--color-main);
+    margin-bottom: 0;
+}
+
+.quote p:last-of-type {
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
 }
