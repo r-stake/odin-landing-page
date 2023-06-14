@@ -201,6 +201,7 @@ header {
     border-radius: 8px;
     padding: 5px 25px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 /*------------------ Footer ---------------------*/
