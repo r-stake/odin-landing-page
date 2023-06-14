@@ -168,3 +168,50 @@ header {
     text-align: right;
     margin-top: 0;
 }
+
+/*-------------------- Sign up ----------------------------*/
+
+.sing-up .container.flex-container {
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    padding: 50px 150px;
+    margin: 100px auto;
+}
+
+.sing-up h2 {
+    margin: 0;
+    color: white;
+}
+
+.sing-up p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.sing-up .button {
+    align-self: center;
+    margin-left: 200px;
+}
+
+.sing-up button {
+    background-color: var(--color-secondary);
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 25px;
+    white-space: nowrap;
+}
+
+/*------------------ Footer ---------------------*/
+
+footer {
+    background-color: var(--color-main);
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
